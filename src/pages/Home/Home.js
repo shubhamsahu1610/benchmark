@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
       <h2>Home</h2>
-      <p>Welcome to the home page!</p>
+      <p>Welcome to the Chart page!</p>
 
       {/* HighchartsReact component */}
       <HighchartsReact highcharts={Highcharts} options={chartOptions} />
